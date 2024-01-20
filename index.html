@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>letter for you</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="envelope-wrapper">
+            <div class="envelope">
+                <div class="letter">
+                    <div class="text">
+                        <p>  
+                            <p>
+                                hello bai, i've been contemplating and assuring myself about what i really feel for you. i may sometimes think that you're too good for me, but i've admired you for years now. If what you said about how you feel for me was real, then I'm willing to take risks. but for now, I just want to get to know you a bit more as 'friends'.
+                            </p>
+
+                            <p>    
+                            xoxo,<br>
+                            chambo
+                            </p>
+                            <br>
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="heart"></div>
+        </div>
+    </div>
+    <script>
+        const envelope = document.querySelector('.envelope-wrapper');
+        envelope.addEventListener('click', () => {
+            envelope.classList.toggle('flap');
+        });
+    </script>
+</body>
+</html>
